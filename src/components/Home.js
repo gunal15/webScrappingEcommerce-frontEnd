@@ -51,7 +51,7 @@ function Home() {
         <option value='furniture' >Furnitures</option>
          <option value='laptops' >Laptops</option> 
          <option value='mobiles' >Mobiles</option>
-         <option value='shelves' >shelves</option>
+         <option value='shelves' >Shelves</option>
         </select> 
        
       <div className="main-cards">
