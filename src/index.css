@@ -165,7 +165,7 @@ z-index: 2;
   color: rgb(255, 255, 255);
   border: none;
   outline: none;
-  background-color: black;
+  background-color: rgb(236, 20, 20);
   border-radius: 50%;
   margin-left: 5px;
 }
