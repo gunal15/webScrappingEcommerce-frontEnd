@@ -22,7 +22,7 @@ function Laptops() {
   return <>
     <h2 className="Pro-title">Laptops</h2>
     <div className="main-cards">
-        <Link to="/"><button className="btn btn-dark back-btn btn-sm">Back</button></Link>
+        <Link to="/"><button className="btn btn-danger back-btn btn-sm">Back</button></Link>
         
         {displayProduct.filter? displayProduct.filter(val=>val.title.toLowerCase().includes(context.searchItem.toLowerCase())).map((e,i)=>{
             return <div key={i}> <a href={e.link} target="_blank" rel="noreferrer" className="link" >
