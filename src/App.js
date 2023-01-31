@@ -63,7 +63,7 @@ function App() {
       user?<><Header/>
       <div className="container">
       <div className="search-bar form-group">
-        <input type="text"  className="form-control" placeholder="Search products" onChange={(e)=>setSearchItem(e.target.value)} />
+        <input type="text"  className="form-control" placeholder="Search your category" onChange={(e)=>setSearchItem(e.target.value)} />
        <button className="search-btn"><SearchIcon/></button>
       </div>
         
