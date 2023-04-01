@@ -78,9 +78,9 @@ const Register = () => {
          <input type="email" className="form-control" onChange={(e)=>setEmail(e.target.value)} placeholder="Your Name" required/>
      </div>
        <label  class="form-label mt-1">Create Password</label>
-      <input type="text" placeholder='Password'  class="form-control"onChange={(e)=>setPassword(e.target.value)}  required/>
+      <input type="password" placeholder='Password'  class="form-control"onChange={(e)=>setPassword(e.target.value)}  required/>
       <label for="inputPassword5" className="form-label mt-1">Confirm Password</label>
-      <input type="text" placeholder='Re-enter Password'  class="form-control"onChange={(e)=>setRe_password(e.target.value)}  required/>
+      <input type="password" placeholder='Re-enter Password'  class="form-control"onChange={(e)=>setRe_password(e.target.value)}  required/>
       
       <div className='d-grid gap-2 col-6 mx-auto mt-4'>
         <Button
